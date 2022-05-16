@@ -282,6 +282,73 @@ color: #f55767;
 .app-item-img.b{
   background-color: #f4f4fe;
 }
+.app-item-contant.b h4 {
+  color: #2563ff;
+}
 .app-item-img.g{
   background-color: #e3ffee;
+}
+.app-item-contant.g h4 {
+  color: #40975f;
+}
+/* ====================
+Smart Jackpot Area
+======================= */
+.jeckpot-heading{
+  position: relative;
+}
+.jeckpot-heading h2 {
+  font-size: 45px;
+  line-height: 50px;
+}
+.jeckpot-heading h2::after {
+  position: absolute;
+  content: "";
+  background: #b9b9b8;
+  width: 1px;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.jeckpot-para {
+  height: 145px;
+}
+.jeckpot-para p {
+  font-size: 16px;
+  line-height: 26px;
+}
+.jeck-img{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.jeck-img.r{
+  background-color: #ffecee;
+}
+.jeck-img.b{
+  background-color: #f4f4fe;
+}
+.jeck-img.g{
+  background-color: #e3ffee;
+}
+.jeck-contant h4{
+  font-size: 20px;
+  line-height: 58px;
+}
+.jeck-contant.r h4{
+  color: #f55767;
+}
+.jeck-contant.b h4{
+  color: #2563ff;
+}
+.jeck-contant.g h4{
+  color: #40975f;
+}
+.jeck-contant p{
+  font-size: 16px;
+  line-height: 26px;
 }
