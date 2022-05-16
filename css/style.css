@@ -236,3 +236,52 @@ span.text {
 .brand h6 {
   font-weight: 400;
 }
+
+/* ==============
+App Featue Area
+================= */
+section.app-feature {
+  height: 850px;
+  background-repeat: no-repeat;
+}
+.feature-contant h2 {
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 15px;
+}
+.feature-contant p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 80px;
+}
+.app-item {
+  margin-bottom: 60px;
+}
+.app-item-img {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.app-item-img.r{
+  background-color: #ffecee;
+}
+.app-item-contant h4 {
+  font-size: 20px;
+  line-height: 58px;
+}
+.app-item-contant.r h4 {
+color: #f55767;
+}
+.app-item-contant p {
+  margin-bottom: 0;
+}
+.app-item-img.b{
+  background-color: #f4f4fe;
+}
+.app-item-img.g{
+  background-color: #e3ffee;
+}
