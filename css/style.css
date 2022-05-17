@@ -344,3 +344,55 @@ Subscribe Area
   line-height: 44px;
   color: #999ca5;
 }
+/* ===========
+Rating Area
+============== */
+.testimonial-bg {
+  height: 550px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.testimonial h2 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+.rating svg {
+  color: #ffcc00;
+  font-size: 20px;
+  line-height: 58px;
+}
+.testimonial-contant h4 {
+  line-height: 58px;
+  font-size: 20px;
+}
+.user-img {
+  float: left;
+}
+.user-info {
+  float: left;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+button.slide-arrow.next-arrow.slick-arrow {
+  border: none;
+  background-color: #eff2f7;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+}
+button.slide-arrow.prev-arrow.slick-arrow {
+  border: none;
+  background-color: #fff;
+  color: #e1e1e4;
+  border: 1px solid #e1e1e4;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 65px;
+  bottom: 23px;
+}
