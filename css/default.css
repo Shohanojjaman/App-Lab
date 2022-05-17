@@ -50,7 +50,7 @@ button {
 color: #ffff;
 background-color: #2500f9;
 border-radius: 35px;
-padding: 15px 40px;
+padding: 15px 60px;
 font-size: 16px;
 font-weight: 700;
 border: 2px solid transparent;
@@ -122,6 +122,9 @@ label {
     cursor: pointer;
     font-size: 14px;
     font-weight: 400;
+}
+a{
+	text-decoration: none;
 }
 *::-moz-selection {
     background: #d6b161;
