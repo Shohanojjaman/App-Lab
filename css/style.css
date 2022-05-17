@@ -274,13 +274,73 @@ Our App Area
 /* ======================
 Unlimited Feature Area
 ========================= */
-/* .ul-feature{
-  height: 650px;
-} */
 .ul-feature {
   background-repeat: no-repeat;
   background-position: right bottom;
 }
 .nmt-265 {
   margin-top: -265px;
+}
+/* =================
+Subscribe Area
+==================== */
+.s-nav-style {
+  border: 2px solid #efefef;
+  border-radius: 35px;
+  padding: 3px 3px;
+}
+.s-nav-style button {
+  border: none;
+  color: #616368;
+  background: none;
+  padding: 7px 60px;
+  line-height: 44px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.s-nav-style button:hover{
+  color: #616368;
+}
+.s-nav-style button.nav-link.active {
+  background-color: #2500f9;
+  color: #fff;
+  border-radius: 35px;
+}
+.single-subscribe{
+  box-shadow: 0 55px 62px 0 rgba(144, 163, 177, 0.2);
+  border-radius: 10px;
+}
+.single-subscribe.pro{
+  box-shadow: none;
+  border: 1px solid #ebebeb;
+}
+.s-head {
+  background-color: #f7f8fa;
+  padding: 65px 60px 40px;
+}
+.price span {
+  font-size: 60px;
+  line-height: 58px;
+  font-weight: 600;
+}
+.price span.month {
+  font-size: 18px;
+  line-height: 28px;
+  color: #999ca5;
+}
+.s-head h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.s-body{
+  padding-bottom: 20px;
+}
+.s-body ul {
+  padding: 40px 0;
+}
+.s-body ul li {
+  font-size: 16px;
+  line-height: 44px;
+  color: #999ca5;
 }
