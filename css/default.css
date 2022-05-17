@@ -126,6 +126,12 @@ label {
 a{
 	text-decoration: none;
 }
+.d-block{
+	display: block;
+}
+.d-iblock{
+	display: inline-block;
+}
 *::-moz-selection {
     background: #d6b161;
     color: #fff;
