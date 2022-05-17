@@ -240,10 +240,6 @@ span.text {
 /* ==============
 App Featue Area
 ================= */
-section.app-feature {
-  height: 850px;
-  background-repeat: no-repeat;
-}
 .feature-contant h2 {
   font-size: 36px;
   line-height: 46px;
@@ -253,6 +249,12 @@ section.app-feature {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 80px;
+}
+.app-feature-bg{
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 .app-item {
   margin-bottom: 60px;
