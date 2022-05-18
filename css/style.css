@@ -415,7 +415,7 @@ FAQ Area
 }
 .accordion-button {
   width: 100%;
-  padding: 20px 15px;
+  padding: 25px 15px;
   font-size: 20px;
   color: #242f51;
   font-weight: 600;
@@ -429,6 +429,7 @@ FAQ Area
 }
 
 .accordion-button:not(.collapsed)::after {
+  background: none;
   content: "\f068";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
@@ -470,4 +471,41 @@ section.download {
 }
 .download-img img {
   margin-right: 30px;
+}
+/* ===============
+Footer Area
+==================*/
+footer {
+  background-color: #09142e;
+}
+footer img{
+  margin-bottom: 50px;
+}
+.footer-manu ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.footer-manu ul li a {
+  color: #ffff;
+  line-height: 44px;
+  font-size: 16px;
+  margin-bottom: 50px;
+  display: block;
+}
+.footer-manu ul li a:hover{
+  color: #2563ff;
+}
+.social svg {
+  font-size: 30px;
+  line-height: 44px;
+  color: #272f42;
+  display: inline-block;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+.social svg:hover{
+  color: #fff;
+}
+footer p {
+  font-size: 14px;
 }
