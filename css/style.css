@@ -448,6 +448,26 @@ FAQ Area
   background-size: 1.25rem;
   transition: transform .2s ease-in-out;
 }
-.accordion-button:not(.collapsed)::after {
-	background-image: url("https://b.stripecdn.com/docs/assets/6bf407479706b31fa82c548be63edc52.png");
+/* ============
+Download Area
+===============*/
+section.download {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  height: 400px;
+}
+.download-wrepper {
+  height: 400px;
+}
+.download-contant h2 {
+  font-size: 38px;
+  line-height: 58px;
+  margin-bottom: 10px;
+}
+.download-contant p {
+  margin-bottom: 40px;
+}
+.download-img img {
+  margin-right: 30px;
 }
