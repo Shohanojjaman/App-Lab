@@ -449,6 +449,9 @@ FAQ Area
   background-size: 1.25rem;
   transition: transform .2s ease-in-out;
 }
+.accordion-body {
+  color: #737479;
+}
 /* ============
 Download Area
 ===============*/
