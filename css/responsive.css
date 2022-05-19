@@ -1,5 +1,5 @@
 /* XXL Device :>1400px */
-@media (min-width: 1401px){
+@media (min-width: 1400px){
 
 }
 /* XL Device :1200px */
@@ -8,14 +8,201 @@
 }
 /* LG Device :992px */
 @media (min-width: 992px) and (max-width: 1200px) {
-
+    .main-manu ul li a {
+        padding-right: 20px;
+    }
+    section.home-area {
+        height: auto;
+    }
+    .feature-contant p {
+        margin-bottom: 30px;
+    }
+    .app-item {
+        margin-bottom: 0px;
+    }
+    .jeckpot-heading h2 {
+        font-size: 38px;
+    }
+    .design-bg {
+        height: 450px;
+    }
+    .ul-feature {
+        background-position: center right;
+        background-size: 500px;
+    }
+    .s-head {
+        background-color: #f7f8fa;
+        padding: 65px 40px 40px;
+    }
+    .testimonial-bg {
+        background-position: center;
+    }
+    .testimonial h2 {
+        font-size: 37px;
+    }
+    section.download {
+        background-size: 500px;
+    }
 }
 /* MD Device :768px */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    section.home-area {
+        height: auto;
+    }
+    .home-img {
+        display: flex;
+        justify-content: center;
+    }
+    .home-img img {
+        width: 60%;
+    }
+    .app-feature-bg {
+        background-size: 500px;
+        background-position: center;
+    }
+    .jeckpot-heading h2 {
+        font-size: 30px;
+    }
+    .jeckpot-heading h2::after {
+        position: initial;
+    }
+    section.s-jackpot {
+        text-align: center;
+    }
+    .design-bg {
+        height: 400px;
+        background-position: center;
+    }
+    .design-contant {
+        margin-top: 30px;
+    }
+    .our-app-item {
+        margin-top: 30px;
+    }
+    .ul-feature {
+        background-position: center bottom;
+        height: 1550px;
+        background-size: 600px;
+    }
+    .single-subscribe {
+        margin-bottom: 40px;
+    }
+    .testimonial-bg {
+        height: 450px;
+        background-size: 550px;
+        background-position: center;
+    }
+    section.download {
+        background-position: center bottom;
+        background-size: 550px;
+        height: 650px;
+    }
+    footer img {
+        margin-bottom: 30px;
+    }
+    .footer-manu ul li a {
+        margin-bottom: 25px;
+    }
+    .social {
+        margin-bottom: 50px;
+    }
 }
 /* Extra small Device */
 @media (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    section.home-area {
+        height: auto;
+    }
+    .home-contant h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .home-contant a {
+        margin-bottom: 20px;
+        display: block;
+        text-align: center;
+    }
+    .app-feature-bg {
+        height: 500px;
+    }
+    .jeckpot-heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .jeckpot-heading h2::after {
+        position: inherit;
+    }
+    .design-bg {
+        height: 400px;
+        background-size: 350px;
+    }
+    .design-contant h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .our-app-item {
+        margin-top: 30px;
+    }
+    .ul-feature {
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        height: 1900px;
+        background-size: 400px;
+    }
+    section.subscribe .title h2 {
+        font-size: 24px;
+    }
+    .testimonial-bg {
+        height: 400px;
+        background-size: 380px;
+        background-position: center;
+    }
+    .testimonial h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .accordion-button {
+        padding: 16px 15px;
+        font-size: 15px;
+    }
+    .accordion-body {
+        font-size: 15px;
+    }
+    .accordion-button:not(.collapsed) {
+        font-size: 15px;
+    }
+    .accordion-button::after {
+        font-size: 18px;
+    }
+    .accordion-button:not(.collapsed)::after {
+        font-size: 18px;
+    }
+    section.download {
+        background-position: bottom;
+        background-size: 400px;
+        height: 600px;
+    }
+    .download-img img {
+        margin-right: 0;
+    }
+    footer img {
+        margin-bottom: 30px;
+    }
+    .footer-manu ul li {
+        padding: 0 5px;
+    }
+    .footer-manu ul li a {
+        margin-bottom: 25px;
+    }
+    .social {
+        margin-bottom: 50px;
+    }
 }
  
 /* SM Small Device :550px */
